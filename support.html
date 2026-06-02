@@ -1,0 +1,249 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SampleKing Support</title>
+
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            color: #222;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 50px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,.08);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #111;
+        }
+
+        h2 {
+            margin-top: 40px;
+            color: #111;
+            border-bottom: 2px solid #e5e5e5;
+            padding-bottom: 8px;
+        }
+
+        h3 {
+            margin-top: 28px;
+            color: #222;
+        }
+
+        p {
+            margin-bottom: 18px;
+        }
+
+        ul {
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1rem;
+            margin-bottom: 30px;
+        }
+
+        .nav {
+            margin-bottom: 40px;
+            padding: 15px;
+            background: #f4f4f4;
+            border-radius: 8px;
+        }
+
+        .nav a {
+            margin-right: 20px;
+            font-weight: 600;
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .nav a:hover {
+            text-decoration: underline;
+        }
+
+        .support-box {
+            background: #f9fafb;
+            border: 1px solid #e5e5e5;
+            border-radius: 10px;
+            padding: 22px;
+            margin: 25px 0;
+        }
+
+        .important {
+            background: #fff8e5;
+            border: 1px solid #f0d98c;
+            border-radius: 10px;
+            padding: 18px;
+            margin: 25px 0;
+        }
+
+        .footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #666;
+        }
+
+        a {
+            color: #0066cc;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 25px;
+                margin: 10px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .nav a {
+                display: block;
+                margin-bottom: 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>SampleKing Support</h1>
+
+    <p class="subtitle">
+        Help, troubleshooting, and contact information for the SampleKing mobile app.
+    </p>
+
+    <div class="nav">
+        <a href="#contact">Contact Support</a>
+        <a href="#troubleshooting">Troubleshooting</a>
+        <a href="#recognition">Music Recognition</a>
+        <a href="index.html">Privacy Policy</a>
+    </div>
+
+    <h2 id="contact">Contact Support</h2>
+
+    <div class="support-box">
+        <p>
+            If you need help with SampleKing, have a bug to report, or want to share feedback, please contact us at:
+        </p>
+
+        <p>
+            <strong>Email:</strong>
+            <a href="mailto:culturalphenomt@gmail.com">culturalphenomt@gmail.com</a>
+        </p>
+
+        <p>
+            We typically respond within 2–3 business days.
+        </p>
+    </div>
+
+    <h2>What to Include When Reporting an Issue</h2>
+
+    <p>
+        To help us investigate issues quickly, please include as much of the following information as possible:
+    </p>
+
+    <ul>
+        <li>Your iPhone model</li>
+        <li>Your iOS version</li>
+        <li>The SampleKing app version</li>
+        <li>The song or artist you were trying to identify</li>
+        <li>Whether music was playing from speakers, Bluetooth, or the same device</li>
+        <li>A brief description of what happened</li>
+        <li>Any error message you saw</li>
+    </ul>
+
+    <h2 id="recognition">Music Recognition Notes</h2>
+
+    <p>
+        SampleKing uses your device microphone to identify music playing nearby. Music recognition usually takes several seconds.
+    </p>
+
+    <div class="important">
+        <p>
+            <strong>Best experience:</strong> SampleKing works best when music is playing through speakers from a nearby source.
+        </p>
+    </div>
+
+    <p>
+        Please keep the following in mind:
+    </p>
+
+    <ul>
+        <li>Recognition typically takes around 6 seconds.</li>
+        <li>The microphone is used temporarily during recognition and then turns off.</li>
+        <li>SampleKing works best when music is playing clearly through speakers.</li>
+        <li>If music is playing from the same phone through Bluetooth, you may hear a brief pause when recognition starts.</li>
+        <li>Headphones are not currently supported for recognition because the app needs to hear the music through the microphone.</li>
+    </ul>
+
+    <h2 id="troubleshooting">Troubleshooting</h2>
+
+    <h3>The app did not recognize the song</h3>
+
+    <p>
+        Try moving the phone closer to the speaker, increasing the volume slightly, or reducing background noise.
+    </p>
+
+    <h3>No samples were found</h3>
+
+    <p>
+        SampleKing uses multiple music data sources to identify sample relationships. Some songs may not have available sample information, or the data may be incomplete.
+    </p>
+
+    <h3>Album art or metadata looks incorrect</h3>
+
+    <p>
+        Music metadata is compiled from third-party sources and may occasionally be incomplete or incorrect. We are continuously working to improve accuracy.
+    </p>
+
+    <h3>The app appears to pause briefly during recognition</h3>
+
+    <p>
+        If you are streaming music from the same phone through Bluetooth, the system may briefly pause or lower playback while microphone recognition begins. Playback should resume shortly after recognition starts.
+    </p>
+
+    <h2>Feedback</h2>
+
+    <p>
+        SampleKing is built for listeners, crate diggers, and music fans who care about where music comes from. Feedback helps us improve recognition, sample discovery, history, and music metadata accuracy.
+    </p>
+
+    <p>
+        Please send feedback to:
+        <a href="mailto:culturalphenomt@gmail.com">culturalphenomt@gmail.com</a>
+    </p>
+
+    <div class="footer">
+        <p>
+            <strong>Culturally Phenomenal Technology LLC</strong><br>
+            © 2026 SampleKing. All rights reserved.
+        </p>
+    </div>
+
+</div>
+
+</body>
+</html>
+```
